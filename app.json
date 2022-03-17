@@ -1,0 +1,28 @@
+{
+    "name": "PYROGRAMBOT",
+    "description": "A Modular telegram bot.",
+    "repository": "https://github.com/bughunter0",
+    "keywords": [
+       
+        "telegram bot",
+        "pyrogram"
+    ],
+    
+    
+    "env": {
+        "TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "MONGO": {
+            "description": "Mongo"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
